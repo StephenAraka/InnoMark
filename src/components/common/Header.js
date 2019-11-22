@@ -20,18 +20,18 @@ const Header = (props) => {
   return (
     <div>
       <Navbar color="dark" dark expand="md">
-        <NavbarBrand href="/"><img src={logo} alt='logo' style={{width: '50px'}} /></NavbarBrand>
+        <NavbarBrand href="/"><img src={logo} alt='logo' style={{ width: '50px' }} /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink><Link to='/'>Link</Link></NavLink>
+            {/* <NavItem>
+              <NavLink><Link to='/about'>About Us</Link></NavLink>
+            </NavItem> */}
+            <NavItem className="border-right">
+              <NavLink><Link to='/login' className="login-button">Login</Link></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink><Link to='/'>Link</Link></NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink><Link to='/'>Link</Link></NavLink>
+              <NavLink><Link to='/register' className="register-button">Sign Up</Link></NavLink>
             </NavItem>
           </Nav>
         </Collapse>

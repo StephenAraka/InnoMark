@@ -1,11 +1,34 @@
 .App {
-  text-align: center;
   min-height: 100vh;
-  background: #ec008c; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fc6767, #ec008c); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #fc6767,
-    #ec008c
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login-button {
+  color: white;
+  background-color: #343a40;
+  border: white solid 2px;
+  padding: 10px 20px;
+  &:hover {
+    text-decoration: none;
+    color: #343a40;
+    background-color: white;
+  }
+}
+
+.register-button {
+  color: #44d1ad;
+  background-color: #343a40;
+  border: #44d1ad solid 2px;
+  padding: 10px 20px;
+  &:hover {
+    text-decoration: none;
+    color: #343a40;
+    background-color: #44d1ad;
+  }
+}
+
+.login-form {
+  border: #343a40 2px solid;
+  padding: 40px; 
+  width: 25%;
+  margin: 100px auto;
 }
