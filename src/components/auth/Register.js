@@ -38,9 +38,7 @@ class Register extends Component {
               <Col className="mb-3" xs="12" sm="12" md="12" lg="12">
                 <label className="sign-up-qn">
                   <input
-                    // required
                     type="checkbox"
-                    className="form-field-checkbox"
                     name="hasAgreed"
                   />
                   I agree to the <Link to="/terms" className="sign-up-link">terms of service</Link>
