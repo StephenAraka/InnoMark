@@ -42,10 +42,9 @@ body {
   font-weight: 500;
   color: #999;
   &:hover {
-    color: #44d1ad;
+    color: var(--mainGreen);
   }
 }
-
 
 .sidebar .nav-link.active {
   color: #fff;

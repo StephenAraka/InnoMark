@@ -1,34 +1,58 @@
-.App {
-  min-height: 100vh;
+@import url("https://fonts.googleapis.com/css?family=Calistoga|Montserrat&display=swap");
+
+//! Fonts
+// font-family: 'Calistoga', cursive;
+// font-family: 'Montserrat', sans-serif;
+
+// Color vars
+:root {
+  --mainWhite: #f3f3f3;
+  --mainGreen: #44d1ad;
+  --mainBlack: #343a40;
 }
 
+.App {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--mainWhite);
+  font-family: "Montserrat", sans-serif;
+
+  // HEADINGS && SUBHEADINGS
+  .heading,
+  .sub-heading {
+    font-family: "Calistoga", cursive;
+  }
+}
+
+//******* HEADER *******//
 .login-button {
   color: white;
-  background-color: #343a40;
+  background-color: var(--mainBlack);
   border: white solid 2px;
   padding: 10px 20px;
   &:hover {
     text-decoration: none;
-    color: #343a40;
+    color: var(--mainBlack);
     background-color: white;
   }
 }
 
 .register-button {
-  color: #44d1ad;
-  background-color: #343a40;
-  border: #44d1ad solid 2px;
+  color: var(--mainGreen);
+  background-color: var(--mainBlack);
+  border: var(--mainGreen) solid 2px;
   padding: 10px 20px;
   &:hover {
     text-decoration: none;
-    color: #343a40;
-    background-color: #44d1ad;
+    color: var(--mainBlack);
+    background-color: var(--mainGreen);
   }
 }
 
 .login-form {
-  border: #343a40 2px solid;
-  padding: 40px; 
+  border: var(--mainBlack) 2px solid;
+  padding: 40px;
   width: 25%;
   margin: 100px auto;
 }

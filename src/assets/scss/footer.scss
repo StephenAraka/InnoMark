@@ -1,0 +1,15 @@
+// div wrapping the footer
+#content-wrap {
+  padding-bottom: 15rem; // Footer height
+}
+
+/* Footer */
+#footer {
+  background-color: var(--mainBlack);
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15rem; // Footer height
+}

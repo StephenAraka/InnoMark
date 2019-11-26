@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../common/Header';
 import { SideNav } from '../common/SideNav';
 
 class Dashboard extends Component {
