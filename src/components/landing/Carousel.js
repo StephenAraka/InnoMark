@@ -5,9 +5,10 @@ import {
   CarouselIndicators
 } from 'reactstrap';
 
-import agric1 from '../../assets/img/main/agric.png';
+// import agric1 from '../../assets/img/main/agric.png';
 import agric2 from '../../assets/img/main/agric2.jpg';
-import agric3 from '../../assets/img/main/agricc.jpg';
+import agric3 from '../../assets/img/main/agric3.jpg';
+import agric4 from '../../assets/img/main/agric4.jpg';
 import educ1 from '../../assets/img/main/educ.jpeg';
 import educ2 from '../../assets/img/main/educ2.jpg';
 import finance1 from '../../assets/img/main/finance2.jpg';
@@ -18,7 +19,7 @@ import random from '../../assets/img/main/random.png';
 const items = [
   {
     // src: 'https://via.placeholder.com/1600x600/cad492?text=Slide+Pic+One'
-    src: agric1
+    src: agric4
   },
   {
     // src: 'https://via.placeholder.com/1600x600/a6d492?text=Slide+Pic+Two'
@@ -50,9 +51,21 @@ const items = [
   }
 ];
 
-const SlidePics = (props) => {
+const SlidePics = (/*props*/) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
+
+  const next = () => {
+    if (animating) return;
+    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+    setActiveIndex(nextIndex);
+  };
+
+  const previous = () => {
+    if (animating) return;
+    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+    setActiveIndex(nextIndex);
+  };
 
   const goToIndex = (newIndex) => {
     if (animating) return;
@@ -76,6 +89,8 @@ const SlidePics = (props) => {
     <Carousel
       className="carousel-parent"
       activeIndex={activeIndex}
+      next={next}
+      previous={previous}
     >
       <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
