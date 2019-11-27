@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/innomark/static/css/main.da208369.chunk.css",
-    "main.js": "/innomark/static/js/main.25104a28.chunk.js",
-    "main.js.map": "/innomark/static/js/main.25104a28.chunk.js.map",
+    "main.js": "/innomark/static/js/main.703170ee.chunk.js",
+    "main.js.map": "/innomark/static/js/main.703170ee.chunk.js.map",
     "runtime-main.js": "/innomark/static/js/runtime-main.b6aa8517.js",
     "runtime-main.js.map": "/innomark/static/js/runtime-main.b6aa8517.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/innomark/static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.5d447da6.chunk.js": "/innomark/static/js/2.5d447da6.chunk.js",
     "static/js/2.5d447da6.chunk.js.map": "/innomark/static/js/2.5d447da6.chunk.js.map",
     "index.html": "/innomark/index.html",
-    "precache-manifest.dfb722d1e823558c0031bcd643c8230c.js": "/innomark/precache-manifest.dfb722d1e823558c0031bcd643c8230c.js",
+    "precache-manifest.156bac8ba3c19f165954a8a22efacd59.js": "/innomark/precache-manifest.156bac8ba3c19f165954a8a22efacd59.js",
     "service-worker.js": "/innomark/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/innomark/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.da208369.chunk.css.map": "/innomark/static/css/main.da208369.chunk.css.map",
@@ -50,6 +50,6 @@
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.5d447da6.chunk.js",
     "static/css/main.da208369.chunk.css",
-    "static/js/main.25104a28.chunk.js"
+    "static/js/main.703170ee.chunk.js"
   ]
 }
