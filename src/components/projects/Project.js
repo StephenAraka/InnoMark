@@ -16,7 +16,7 @@ export default class Project extends Component {
           <ProjectConsumer>
             {(value) => (
               <div className="img-container p-0" onClick={() => value.handleDetail(id)}>
-                <Link to="/details">
+                <Link to="/innomark/dashboard/details">
                   <img src={img} alt="product" className="card-img-top" />
                 </Link>
               </div>

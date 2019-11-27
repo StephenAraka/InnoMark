@@ -20,7 +20,7 @@ const Header = (props) => {
   return (
     <div>
       <Navbar color="dark" dark expand="md">
-        <NavbarBrand href="/" className="logo"><img src={logo} alt='logo' style={{ width: '50px' }} /> <span>InnoMark</span></NavbarBrand>
+        <NavbarBrand href="/innomark" className="logo"><img src={logo} alt='logo' style={{ width: '50px' }} /> <span>InnoMark</span></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
@@ -28,10 +28,10 @@ const Header = (props) => {
               <NavLink><Link to='/about'>About Us</Link></NavLink>
             </NavItem> */}
             <NavItem className="border-right">
-              <NavLink><Link to='/login' className="login-button">Login</Link></NavLink>
+              <NavLink><Link to='/innomark/login' className="login-button">Login</Link></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink><Link to='/register' className="register-button">Sign Up</Link></NavLink>
+              <NavLink><Link to='/innomark/register' className="register-button">Sign Up</Link></NavLink>
             </NavItem>
           </Nav>
         </Collapse>

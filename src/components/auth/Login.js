@@ -28,19 +28,19 @@ class Login extends Component {
             </FormGroup>
             <Row className="mt-0">
               <Col className="mb-3" xs="12" sm="12" md="6" lg="6">
-                <Link to="/reset-password" className="forgot-pw">Forgot password?</Link>
+                <Link to="/innomark/reset-password" className="forgot-pw">Forgot password?</Link>
               </Col>
               <Col xs="0" sm="0" md="6" lg="6">
               </Col>
             </Row>
             <Row>
               <Col xs="12" sm="12" md="6" lg="6">
-                <Button type="submit" className="mb-1 btns-login-register">Login</Button>
+                <Link to="/innomark/dashboard/projects"><Button type="submit" className="mb-1 btns-login-register">Login</Button></Link>
               </Col>
             </Row>
             <Row className="mt-5 text-center">
               <Col xs="12" sm="12" md="12" lg="12">
-                <p className="sign-up-qn">New to InnoMark? ... <Link to="/register" className="sign-up-link">Sign Up Here</Link></p>
+                <p className="sign-up-qn">New to InnoMark? ... <Link to="/innomark/register" className="sign-up-link">Sign Up Here</Link></p>
               </Col>
             </Row>
           </Form>

@@ -9,10 +9,10 @@ import Dashboard from './dashboard/Dashboard';
 
 const Main = () => (
   <Switch>
-    <Route exact path='/' component={Landing} />
-    <Route path='/login' component={Login} />
-    <Route path='/register' component={Register} />
-    <Route path='/dashboard' component={Dashboard} />
+    <Route exact path='/innomark' component={Landing} />
+    <Route path='/innomark/login' component={Login} />
+    <Route path='/innomark/register' component={Register} />
+    <Route path='/innomark/dashboard' component={Dashboard} />
     
 
     <Route component={NotFound} />

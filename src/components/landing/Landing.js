@@ -21,7 +21,7 @@ export class Landing extends Component {
                   <p className="my-2 p-big">InnoMark is where donors, adopters and collaborators find cutting edge Technology Innovations from Uganda.</p>
                   <ModalFooter>
                     <div className="btn-toolbar pull-right">
-                      <Link to="/register"><Button className="mr-3 btn-sign-up">SIGN UP NOW</Button></Link>
+                      <Link to="/innomark/register"><Button className="mr-3 btn-sign-up">SIGN UP NOW</Button></Link>
                       <Link to="#"><Button className="btn-learn-more">LEARN MORE</Button></Link>
                     </div>
                   </ModalFooter>

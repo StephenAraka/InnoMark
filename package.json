@@ -1,5 +1,6 @@
 {
-  "name": "hybrid",
+  "homepage": "http://stephenaraka.github.io/innomark",
+  "name": "innomark",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

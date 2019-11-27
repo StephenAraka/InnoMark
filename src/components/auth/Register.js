@@ -46,13 +46,13 @@ class Register extends Component {
               </Col>
             </Row>
             <Row>
-              <Col xs="12" sm="12" md="6" lg="6">
+              <Col xs="12" sm="12" md="12" lg="12">
                 <Button type="submit" className="mb-1 btns-login-register">Create Account</Button>
               </Col>
             </Row>
             <Row className="mt-5 text-center">
               <Col xs="12" sm="12" md="12" lg="12">
-                <p className="sign-up-qn">Already a member?... <Link to="/login" className="sign-up-link">Log In Here</Link></p>
+                <p className="sign-up-qn">Already a member?... <Link to="/innomark/login" className="sign-up-link">Log In Here</Link></p>
               </Col>
             </Row>
           </Form>

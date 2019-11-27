@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-
-import Title from '../projects/Title';
+import { FaFilter, FaShare } from 'react-icons/fa';
+// import Title from '../projects/Title';
 import { SideNav } from '../common/SideNav';
 
 import ProjectsList from '../projects/ProjectsList';
+import Details from '../projects/Details';
 
 class Dashboard extends Component {
   render() {
@@ -19,19 +20,21 @@ class Dashboard extends Component {
               <h1 className="h2">Dashboard</h1>
               <div className="btn-toolbar mb-2 mb-md-0">
                 <div className="btn-group mr-2">
-                  <button className="btn btn-sm btn-outline-secondary">Share</button>
+                  <button className="btn btn-sm btn-outline-secondary"><FaShare /> Share</button>
                   <button className="btn btn-sm btn-outline-secondary">Export</button>
                 </div>
                 <button className="btn btn-sm btn-outline-secondary dropdown-toggle">
                   <span data-feather="calendar"></span>
-                  This week
+                  <FaFilter /> Filter projects by
                 </button>
               </div>
             </div>
 
-            <Title name="all" title="projects" />
+            {/* <Title name="all" title="projects" /> */}
+
             <Switch>
-              <Route path='/dashboard/all' component={ProjectsList} />
+              <Route path='/innomark/dashboard/projects' component={ProjectsList} />
+              <Route path='/innomark/dashboard/details' component={Details} />
             </Switch>
           </main>
         </div>
