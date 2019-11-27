@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Progress, Row, Col } from 'reactstrap';
 import { FaHeart } from 'react-icons/fa';
 
@@ -16,9 +16,9 @@ export default class LandingProjects extends Component {
           <Col xs="12" sm="12" md="4" lg="3">
             <div className="card">
               <div className="img-container p-0">
-                <Link to="/innomark/dashboard/details">
-                  <img src={AgricProject3} alt="product" className="card-img-top" />
-                </Link>
+                
+                <img src={AgricProject3} alt="product" className="card-img-top" />
+                
               </div>
 
               {/* card footer */}
@@ -39,9 +39,9 @@ export default class LandingProjects extends Component {
           <Col xs="12" sm="12" md="4" lg="3">
             <div className="card">
               <div className="img-container p-0">
-                <Link to="/innomark/dashboard/details">
-                  <img src={AgricProject6} alt="product" className="card-img-top" />
-                </Link>
+                
+                <img src={AgricProject6} alt="product" className="card-img-top" />
+                
               </div>
 
               {/* card footer */}
@@ -62,9 +62,9 @@ export default class LandingProjects extends Component {
           <Col xs="12" sm="12" md="4" lg="3">
             <div className="card">
               <div className="img-container p-0">
-                <Link to="/innomark/dashboard/details">
-                  <img src={AgricProject7} alt="product" className="card-img-top" />
-                </Link>
+                
+                <img src={AgricProject7} alt="product" className="card-img-top" />
+                
               </div>
 
               {/* card footer */}
@@ -85,9 +85,9 @@ export default class LandingProjects extends Component {
           <Col xs="12" sm="12" md="4" lg="3">
             <div className="card">
               <div className="img-container p-0">
-                <Link to="/innomark/dashboard/details">
-                  <img src={AgricProject5} alt="product" className="card-img-top" />
-                </Link>
+                
+                <img src={AgricProject5} alt="product" className="card-img-top" />
+                
               </div>
 
               {/* card footer */}
