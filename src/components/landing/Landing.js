@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { Row, Col, Button, ModalFooter } from 'reactstrap';
 
 import SlidePics from './Carousel';
+import LandingProjects from './LandingProjects';
+import { FaMobile, FaHome, FaHospital, FaDollarSign, FaTree, FaSchool } from 'react-icons/fa';
 
 export class Landing extends Component {
   render() {
@@ -30,21 +32,41 @@ export class Landing extends Component {
             </Row>
           </div>
         </div>
+
         <div className="landing-section-2">
-          <Row>
-            <Col>
-              <div>
-                <h4>About Us</h4>
-                <p>Some quick example text to build on the card title and make up the bulk of the cards content. Some quick example text to build on the card title and make up the bulk of the cards content. Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-                <p>Some quick example text to build on the card title and make up the bulk of the cards content. Some quick example text to build on the card title and make up the bulk of the cards content. Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-              </div>
-            </Col>
-            <Col>
-              <div>
-                <h3>Holla </h3>
-              </div>
-            </Col>
-          </Row>
+          <LandingProjects />
+        </div>
+
+        <div className="landing-section-3">
+          <div className="col-9 mx-auto col-sm-12 col-md-9 col-lg-6 my-5">
+            <h4>Lots of Interesting Categories</h4>
+            <Row>
+              <Col xs="6" sm="6" md="4" lg="2">
+                <FaHome  className="r-icon"/>
+                <p>home</p>
+              </Col>
+              <Col xs="6" sm="6" md="2" lg="2">
+                <FaMobile  className="r-icon"/>
+                <p>mobile apps</p>
+              </Col>
+              <Col xs="6" sm="6" md="2" lg="2">
+                <FaHospital className="r-icon"/>
+                <p>health</p>
+              </Col>
+              <Col xs="6" sm="6" md="2" lg="2">
+                <FaDollarSign  className="r-icon"/>
+                <p>finance</p>
+              </Col>
+              <Col xs="6" sm="6" md="2" lg="2">
+                <FaTree  className="r-icon"/>
+                <p>agric</p>
+              </Col>
+              <Col xs="6" sm="6" md="2" lg="2">
+                <FaSchool  className="r-icon"/>
+                <p>education</p>
+              </Col>
+            </Row>
+          </div>
         </div>
       </>
     );

@@ -1,4 +1,3 @@
-
 // carousel landing section 1
 .landing-section-1 {
   position: relative;
@@ -67,6 +66,57 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
+  }
+}
+
+.landing-projects {
+  .card {
+    overflow: hidden;
+    height: 500px;
+
+    img {
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+
+      &:hover {
+        transform: scale(1.2);
+        transition: all .5s linear;
+      }
+    }
+
+    .card-sub-title {
+      font-size: 17px;
+    }
+
+    .some-info {
+      font-size: 13px;
+    }
+
+    .funding {
+      font-family: "Calistoga", cursive;
+    }
+  }
+}
+.landing-section-3 {
+  h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--mainGreen);
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .r-icon {
+    margin: auto;
+    text-align: center;
+    color: var(--mainPink);
+    font-size: 40px;
+  }
+
+  p {
+    text-align: left;
+    text-transform: uppercase;
   }
 }
 
