@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c7c0a356b9d2ce6f0f4702c38ba03c7",
+    "revision": "383686c09a909712bba931f1fce7d838",
     "url": "/innomark/index.html"
   },
   {
-    "revision": "7a5f37999290048e134e",
+    "revision": "3d032f50d6cb192f121a",
     "url": "/innomark/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "d5c66cf4281b57c6b4eb",
-    "url": "/innomark/static/css/main.2c8e7a25.chunk.css"
+    "revision": "f8113fc82a21dafe4f5c",
+    "url": "/innomark/static/css/main.da208369.chunk.css"
   },
   {
-    "revision": "7a5f37999290048e134e",
-    "url": "/innomark/static/js/2.0ddae5f9.chunk.js"
+    "revision": "3d032f50d6cb192f121a",
+    "url": "/innomark/static/js/2.5d447da6.chunk.js"
   },
   {
-    "revision": "d5c66cf4281b57c6b4eb",
-    "url": "/innomark/static/js/main.f4312e93.chunk.js"
+    "revision": "f8113fc82a21dafe4f5c",
+    "url": "/innomark/static/js/main.25104a28.chunk.js"
   },
   {
     "revision": "f303c4e58e09ec38ccb2",
@@ -76,8 +76,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/innomark/static/media/educ.c8cdebf2.jpeg"
   },
   {
+    "revision": "bfd61e7e3aee4d629b013f99d9e34ff8",
+    "url": "/innomark/static/media/educ1.bfd61e7e.jpg"
+  },
+  {
+    "revision": "3aefa3fc25b814afa799b05315836f9d",
+    "url": "/innomark/static/media/educ2.3aefa3fc.jpg"
+  },
+  {
     "revision": "f15389de1dee0f30d870b99cad43cac6",
     "url": "/innomark/static/media/educ2.f15389de.jpg"
+  },
+  {
+    "revision": "68c412838b79ef6ec9d14de84e36739b",
+    "url": "/innomark/static/media/educ3.68c41283.png"
+  },
+  {
+    "revision": "8e9477cb2fccd0204f83011df1d5d7b8",
+    "url": "/innomark/static/media/educ4.8e9477cb.png"
+  },
+  {
+    "revision": "f4c2dcd3d3a2fa1f5c3144811630ce77",
+    "url": "/innomark/static/media/educ4.f4c2dcd3.jpg"
+  },
+  {
+    "revision": "0a3acc0a5de344ffa5bc87fbb6d57dc6",
+    "url": "/innomark/static/media/educ5.0a3acc0a.jpg"
+  },
+  {
+    "revision": "a2858cfd9715476357f479040c5484a5",
+    "url": "/innomark/static/media/educ6.a2858cfd.png"
+  },
+  {
+    "revision": "8d4bb8d9f1cd0746a8ebb805dd5a7c97",
+    "url": "/innomark/static/media/educ7.8d4bb8d9.png"
+  },
+  {
+    "revision": "a0bc485527f0110b5fbd237c4492c81a",
+    "url": "/innomark/static/media/educ8.a0bc4855.png"
   },
   {
     "revision": "962bafe1bafec79347e7ced62eaeff1c",

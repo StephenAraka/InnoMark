@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/innomark/static/css/main.2c8e7a25.chunk.css",
-    "main.js": "/innomark/static/js/main.f4312e93.chunk.js",
-    "main.js.map": "/innomark/static/js/main.f4312e93.chunk.js.map",
+    "main.css": "/innomark/static/css/main.da208369.chunk.css",
+    "main.js": "/innomark/static/js/main.25104a28.chunk.js",
+    "main.js.map": "/innomark/static/js/main.25104a28.chunk.js.map",
     "runtime-main.js": "/innomark/static/js/runtime-main.b6aa8517.js",
     "runtime-main.js.map": "/innomark/static/js/runtime-main.b6aa8517.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/innomark/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.0ddae5f9.chunk.js": "/innomark/static/js/2.0ddae5f9.chunk.js",
-    "static/js/2.0ddae5f9.chunk.js.map": "/innomark/static/js/2.0ddae5f9.chunk.js.map",
+    "static/js/2.5d447da6.chunk.js": "/innomark/static/js/2.5d447da6.chunk.js",
+    "static/js/2.5d447da6.chunk.js.map": "/innomark/static/js/2.5d447da6.chunk.js.map",
     "index.html": "/innomark/index.html",
-    "precache-manifest.1f6bc0ac63987bc3f877eab79d30c4ad.js": "/innomark/precache-manifest.1f6bc0ac63987bc3f877eab79d30c4ad.js",
+    "precache-manifest.dfb722d1e823558c0031bcd643c8230c.js": "/innomark/precache-manifest.dfb722d1e823558c0031bcd643c8230c.js",
     "service-worker.js": "/innomark/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/innomark/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.2c8e7a25.chunk.css.map": "/innomark/static/css/main.2c8e7a25.chunk.css.map",
+    "static/css/main.da208369.chunk.css.map": "/innomark/static/css/main.da208369.chunk.css.map",
     "static/media/agric.jpg": "/innomark/static/media/agric.a5c12e74.jpg",
     "static/media/agric2.jpg": "/innomark/static/media/agric2.edec49c0.jpg",
     "static/media/agric3.jpg": "/innomark/static/media/agric3.bbb99940.jpg",
@@ -24,7 +24,15 @@
     "static/media/agricfield.jpg": "/innomark/static/media/agricfield.20593f50.jpg",
     "static/media/agricfield2.jpg": "/innomark/static/media/agricfield2.b748425e.jpg",
     "static/media/educ.jpeg": "/innomark/static/media/educ.c8cdebf2.jpeg",
+    "static/media/educ1.jpg": "/innomark/static/media/educ1.bfd61e7e.jpg",
     "static/media/educ2.jpg": "/innomark/static/media/educ2.f15389de.jpg",
+    "static/media/educ3.png": "/innomark/static/media/educ3.68c41283.png",
+    "static/media/educ4.png": "/innomark/static/media/educ4.8e9477cb.png",
+    "static/media/educ4.jpg": "/innomark/static/media/educ4.f4c2dcd3.jpg",
+    "static/media/educ5.jpg": "/innomark/static/media/educ5.0a3acc0a.jpg",
+    "static/media/educ6.png": "/innomark/static/media/educ6.a2858cfd.png",
+    "static/media/educ7.png": "/innomark/static/media/educ7.8d4bb8d9.png",
+    "static/media/educ8.png": "/innomark/static/media/educ8.a0bc4855.png",
     "static/media/finance2.jpg": "/innomark/static/media/finance2.962bafe1.jpg",
     "static/media/health.jpg": "/innomark/static/media/health.bce1a20d.jpg",
     "static/media/kyu.jpg": "/innomark/static/media/kyu.07af06fe.jpg",
@@ -40,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.b6aa8517.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.0ddae5f9.chunk.js",
-    "static/css/main.2c8e7a25.chunk.css",
-    "static/js/main.f4312e93.chunk.js"
+    "static/js/2.5d447da6.chunk.js",
+    "static/css/main.da208369.chunk.css",
+    "static/js/main.25104a28.chunk.js"
   ]
 }
