@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9e0c875b563b6a77ae0ecec77996d6b",
+    "revision": "9c7c0a356b9d2ce6f0f4702c38ba03c7",
     "url": "/innomark/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/innomark/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "45eea968b046bce15ada",
+    "revision": "d5c66cf4281b57c6b4eb",
     "url": "/innomark/static/css/main.2c8e7a25.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/innomark/static/js/2.0ddae5f9.chunk.js"
   },
   {
-    "revision": "45eea968b046bce15ada",
-    "url": "/innomark/static/js/main.918a9c9b.chunk.js"
+    "revision": "d5c66cf4281b57c6b4eb",
+    "url": "/innomark/static/js/main.f4312e93.chunk.js"
   },
   {
     "revision": "f303c4e58e09ec38ccb2",
