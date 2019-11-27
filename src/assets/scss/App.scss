@@ -27,29 +27,3 @@
     font-family: "Calistoga", cursive;
   }
 }
-
-//******* HEADER *******//
-.login-button {
-  color: white;
-  background-color: var(--mainBlack);
-  border: white solid 2px;
-  padding: 10px 20px;
-  &:hover {
-    text-decoration: none;
-    color: var(--mainBlack);
-    background-color: white;
-  }
-}
-
-.register-button {
-  color: var(--mainGreen);
-  background-color: var(--mainBlack);
-  border: var(--mainGreen) solid 2px;
-  padding: 10px 20px;
-  &:hover {
-    text-decoration: none;
-    color: var(--mainBlack);
-    background-color: var(--mainGreen);
-  }
-}
-

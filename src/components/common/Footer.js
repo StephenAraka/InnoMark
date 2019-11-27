@@ -10,7 +10,7 @@ import sponsor3 from '../../assets/img/sponsors/kyu.jpg';
 
 const Footer = () => {
 
-  return (
+  return ( 
     <footer id="footer" className="footer">
       <div className="footer-content">
         <Row className="border-bottom">
@@ -66,7 +66,7 @@ const Footer = () => {
                     </Col>
                   </Row>
                   <Row className="mb-3">
-                    <Col xs="12" sm="12" md="6" lg="6">
+                    <Col xs="12" sm="12" md="12" lg="12">
                       <Button type="submit" className="btn-footer">sign me up</Button>
                     </Col>
                   </Row>

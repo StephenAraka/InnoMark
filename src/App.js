@@ -9,6 +9,7 @@ import './assets/scss/footer.scss';
 import './assets/scss/style.scss';
 import './assets/scss/header.scss';
 import './assets/scss/auth.scss';
+import './assets/scss/dash.scss';
 
 function App() {
   return (

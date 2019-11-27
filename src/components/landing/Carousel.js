@@ -18,12 +18,8 @@ import random from '../../assets/img/main/random.png';
 
 const items = [
   {
-    // src: 'https://via.placeholder.com/1600x600/cad492?text=Slide+Pic+One'
-    src: agric4
-  },
-  {
-    // src: 'https://via.placeholder.com/1600x600/a6d492?text=Slide+Pic+Two'
-    src: agric2
+    // src: 'https://via.placeholder.com/1600x600/92d4a6?text=Slide+Pic+Three'
+    src: finance1
   },
   {
     // src: 'https://via.placeholder.com/1600x600/92d4a6?text=Slide+Pic+Three'
@@ -39,11 +35,15 @@ const items = [
   },
   {
     // src: 'https://via.placeholder.com/1600x600/92d4a6?text=Slide+Pic+Three'
-    src: finance1
+    src: health1
   },
   {
-    // src: 'https://via.placeholder.com/1600x600/92d4a6?text=Slide+Pic+Three'
-    src: health1
+    // src: 'https://via.placeholder.com/1600x600/a6d492?text=Slide+Pic+Two'
+    src: agric2
+  },
+  {
+    // src: 'https://via.placeholder.com/1600x600/cad492?text=Slide+Pic+One'
+    src: agric4
   },
   {
     // src: 'https://via.placeholder.com/1600x600/92d4a6?text=Slide+Pic+Three'

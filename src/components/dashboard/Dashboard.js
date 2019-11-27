@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
+
+import Title from '../projects/Title';
 import { SideNav } from '../common/SideNav';
 
+import ProjectsList from '../projects/ProjectsList';
+
 class Dashboard extends Component {
-  // eslint-disable-next-line class-methods-use-this
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid dashboard">
         <div className="row">
 
           <SideNav />
@@ -20,13 +24,15 @@ class Dashboard extends Component {
                 </div>
                 <button className="btn btn-sm btn-outline-secondary dropdown-toggle">
                   <span data-feather="calendar"></span>
-                    This week
+                  This week
                 </button>
               </div>
             </div>
 
-            <h2>Section title</h2>
-            <p>Stuff here...</p>
+            <Title name="all" title="projects" />
+            <Switch>
+              <Route path='/dashboard/all' component={ProjectsList} />
+            </Switch>
           </main>
         </div>
       </div>
