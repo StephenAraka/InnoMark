@@ -14,7 +14,6 @@ const Main = () => (
     <Route path='/innomark/register' component={Register} />
     <Route path='/innomark/dashboard' component={Dashboard} />
     
-
     <Route component={NotFound} />
   </Switch>
 );

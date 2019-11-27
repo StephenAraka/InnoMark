@@ -19,7 +19,7 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
+      <Navbar style={{zIndex: '200'}} color="dark" dark expand="md">
         <NavbarBrand href="/innomark" className="logo"><img src={logo} alt='logo' style={{ width: '50px' }} /> <span>InnoMark</span></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
